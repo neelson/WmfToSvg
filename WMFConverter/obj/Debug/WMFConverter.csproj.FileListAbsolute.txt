@@ -1,0 +1,12 @@
+c:\users\focotec\documents\visual studio 2013\Projects\WMFConverter\WMFConverter\bin\Debug\WMFConverter.exe.config
+C:\Users\Focotec\Documents\Visual Studio 2013\Projects\WMFConverter\WMFConverter\obj\Debug\WMFConverter.csprojResolveAssemblyReference.cache
+C:\Users\Focotec\Documents\Visual Studio 2013\Projects\WMFConverter\WMFConverter\bin\Debug\WMFConverter.exe
+C:\Users\Focotec\Documents\Visual Studio 2013\Projects\WMFConverter\WMFConverter\bin\Debug\WMFConverter.pdb
+C:\Users\Focotec\Documents\Visual Studio 2013\Projects\WMFConverter\WMFConverter\obj\Debug\WMFConverter.exe
+C:\Users\Focotec\Documents\Visual Studio 2013\Projects\WMFConverter\WMFConverter\obj\Debug\WMFConverter.pdb
+C:\Users\Nelson Júnior\Documents\Visual Studio 2015\Projects\WMFConverter\WmfToSvg\WMFConverter\bin\Debug\WMFConverter.exe.config
+C:\Users\Nelson Júnior\Documents\Visual Studio 2015\Projects\WMFConverter\WmfToSvg\WMFConverter\obj\Debug\WMFConverter.exe
+C:\Users\Nelson Júnior\Documents\Visual Studio 2015\Projects\WMFConverter\WmfToSvg\WMFConverter\obj\Debug\WMFConverter.pdb
+C:\Users\Nelson Júnior\Documents\Visual Studio 2015\Projects\WMFConverter\WmfToSvg\WMFConverter\bin\Debug\WMFConverter.exe
+C:\Users\Nelson Júnior\Documents\Visual Studio 2015\Projects\WMFConverter\WmfToSvg\WMFConverter\bin\Debug\WMFConverter.pdb
+C:\Users\Nelson Júnior\Documents\Visual Studio 2015\Projects\WMFConverter\WmfToSvg\WMFConverter\obj\Debug\WMFConverter.csprojResolveAssemblyReference.cache

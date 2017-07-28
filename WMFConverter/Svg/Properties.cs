@@ -1,0 +1,132 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WMFConverter.Svg
+{
+    public class Properties : Dictionary<string, string>
+    {
+        public void load()
+        {
+            var props = new Properties();
+            props.Add("alternative-font.\uff2d\uff33\u0020\u30b4\u30b7\u30c3\u30af", "MS Gothic");
+            props.Add("alternative-font.\uff2d\uff33\u0020\uff30\u30b4\u30b7\u30c3\u30af", "MS PGothic");
+            props.Add("alternative-font.\uff2d\uff33\u0020\u660e\u671d", "MS Mincho");
+            props.Add("alternative-font.\uff2d\uff33\u0020\uff30\u660e\u671d", "MS PMincho");
+            props.Add("alternative-font.\u30E1\u30A4\u30EA\u30AA", "Meiryo");
+
+            props.Add("font-emheight.Andalus", "0.655150351887396");
+            props.Add("font-emheight.Angsana\u0020New", "0.740285559371046");
+            props.Add("font-emheight.AngsanaUPC", "0.740285559371046");
+            props.Add("font-emheight.Aparajita", "0.846280991735537");
+            props.Add("font-emheight.Arabic\u0020Typesetting", "0.877463581833762");
+            props.Add("font-emheight.Arial", "0.895104895104895");
+            props.Add("font-emheight.Arial\u0020Black", "0.709141274238227");
+            props.Add("font-emheight.Browallia\u0020New", "0.800312622118015");
+            props.Add("font-emheight.BrowalliaUPC", "0.800312622118015");
+            props.Add("font-emheight.Calibri", "0.8192");
+            props.Add("font-emheight.Cambria", "0.852977925864223");
+            props.Add("font-emheight.Cambria\u0020Math", "0.179208960448022");
+            props.Add("font-emheight.Comic\u0020Sans\u0020MS", "0.717589348283111");
+            props.Add("font-emheight.Consolas", "0.854045037531276");
+            props.Add("font-emheight.Constantia", "0.8192");
+            props.Add("font-emheight.Corbel", "0.8192");
+            props.Add("font-emheight.Cordia\u0020New", "0.721380767876013");
+            props.Add("font-emheight.CordiaUPC", "0.721380767876013");
+            props.Add("font-emheight.Courier\u0020New", "0.882758620689655");
+            props.Add("font-emheight.DaunPenh", "0.745540589734256");
+            props.Add("font-emheight.David", "1.01637717121588");
+            props.Add("font-emheight.DejaVu\u0020Sans", "0.859060402684564");
+            props.Add("font-emheight.DejaVu\u0020Sans\u0020Mono", "0.859060402684564");
+            props.Add("font-emheight.DejaVu\u0020Serif", "0.859060402684564");
+            props.Add("font-emheight.DilleniaUPC", "0.766323666978485");
+            props.Add("font-emheight.DokChampa", "0.516259137887572");
+            props.Add("font-emheight.Dutch801\u0020SWC", "0.844187963726298");
+            props.Add("font-emheight.Ebrima", "0.751835535976505");
+            props.Add("font-emheight.Estrangelo\u0020Edessa", "0.894323144104804");
+            props.Add("font-emheight.EucrosiaUPC", "0.816912644595134");
+            props.Add("font-emheight.Euphemia", "0.761338289962825");
+            props.Add("font-emheight.Franklin\u0020Gothic\u0020Medium", "0.881998277347115");
+            props.Add("font-emheight.FrankRuehl", "1.07563025210084");
+            props.Add("font-emheight.FreesiaUPC", "0.834046019140705");
+            props.Add("font-emheight.Gabriola", "0.543236074270557");
+            props.Add("font-emheight.Gautami", "0.575928008998875");
+            props.Add("font-emheight.Gentium\u0020Basic", "0.864135021097046");
+            props.Add("font-emheight.Gentium\u0020Book\u0020Basic", "0.864135021097046");
+            props.Add("font-emheight.Georgia", "0.880103137086377");
+            props.Add("font-emheight.Gisha", "0.853333333333333");
+            props.Add("font-emheight.Impact", "0.819855884707766");
+            props.Add("font-emheight.IrisUPC", "0.790580968924918");
+            props.Add("font-emheight.Iskoola\u0020Pota", "0.880860215053763");
+            props.Add("font-emheight.JasmineUPC", "0.945958429561201");
+            props.Add("font-emheight.Kalinga", "0.673684210526316");
+            props.Add("font-emheight.Kartika", "0.701129750085587");
+            props.Add("font-emheight.Khmer\u0020UI", "0.883520276100086");
+            props.Add("font-emheight.KodchiangUPC", "1.0173869846001");
+            props.Add("font-emheight.Kokila", "0.867429055484964");
+            props.Add("font-emheight.Lao\u0020UI", "0.751835535976505");
+            props.Add("font-emheight.Latha", "0.728825622775801");
+            props.Add("font-emheight.Leelawadee", "0.836259697835851");
+            props.Add("font-emheight.Levenim\u0020MT", "0.757676655567888");
+            props.Add("font-emheight.Liberation\u0020Sans\u0020Narrow", "0.883139284174213");
+            props.Add("font-emheight.LilyUPC", "1.04944914168588");
+            props.Add("font-emheight.Lingoes\u0020Unicode", "0.746355685131195");
+            props.Add("font-emheight.Linux\u0020Biolinum\u0020G", "0.877087794432548");
+            props.Add("font-emheight.Linux\u0020Libertine\u0020G", "0.877087794432548");
+            props.Add("font-emheight.Lucida\u0020Sans\u0020Unicode", "0.650778519224658");
+            props.Add("font-emheight.Malgun\u0020Gothic", "0.751835535976505");
+            props.Add("font-emheight.Mangal", "0.595348837209302");
+            props.Add("font-emheight.Meiryo\u0020UI", "0.787389465590158");
+            props.Add("font-emheight.Microsoft\u0020JhengHei", "0.751835535976505");
+            props.Add("font-emheight.Microsoft\u0020New\u0020Tai\u0020Lue", "0.764464352370287");
+            props.Add("font-emheight.Microsoft\u0020PhagsPa", "0.781679389312977");
+            props.Add("font-emheight.Microsoft\u0020Sans\u0020Serif", "0.883520276100086");
+            props.Add("font-emheight.Microsoft\u0020Tai\u0020Le", "0.786482334869432");
+            props.Add("font-emheight.Microsoft\u0020YaHei", "0.757676655567888");
+            props.Add("font-emheight.Microsoft\u0020Yi\u0020Baiti", "0.999024390243902");
+            props.Add("font-emheight.Miriam\u0020Fixed", "1.01285855588526");
+            props.Add("font-emheight.Miriam", "0.99514091350826");
+            props.Add("font-emheight.Mongolian\u0020Baiti", "0.940312213039486");
+            props.Add("font-emheight.MoolBoran", "0.745540589734256");
+            props.Add("font-emheight.MV\u0020Boli", "0.620606060606061");
+            props.Add("font-emheight.Narkisim", "1.0123578843302");
+            props.Add("font-emheight.Nyala", "0.957009345794393");
+            props.Add("font-emheight.Palatino\u0020Linotype", "0.741223307998552");
+            props.Add("font-emheight.Plantagenet\u0020Cherokee", "0.787995382839554");
+            props.Add("font-emheight.Raavi", "0.602352941176471");
+            props.Add("font-emheight.Rod", "1.01941264310602");
+            props.Add("font-emheight.Sakkal\u0020Majalla", "0.716083916083916");
+            props.Add("font-emheight.Segoe\u0020Print", "0.573830204539087");
+            props.Add("font-emheight.Segoe\u0020Script", "0.631319358816276");
+            props.Add("font-emheight.Segoe\u0020UI", "0.751835535976505");
+            props.Add("font-emheight.Segoe\u0020UI\u0020Symbol", "0.751835535976505");
+            props.Add("font-emheight.Shonar\u0020Bangla", "0.772538664654847");
+            props.Add("font-emheight.Shruti", "0.594830090037758");
+            props.Add("font-emheight.Simplified\u0020Arabic", "0.603240058910162");
+            props.Add("font-emheight.Simplified\u0020Arabic\u0020Fixed", "0.915921288014311");
+            props.Add("font-emheight.Swiss742\u0020SWC", "0.803452334248725");
+            props.Add("font-emheight.Sylfaen", "0.759362254356693");
+            props.Add("font-emheight.Symbol", "0.816261458748505");
+            props.Add("font-emheight.Tahoma", "0.828478964401295");
+            props.Add("font-emheight.Times\u0020New\u0020Roman", "0.90299823633157");
+            props.Add("font-emheight.Traditional\u0020Arabic", "0.66906239790918");
+            props.Add("font-emheight.Trebuchet\u0020MS", "0.861227922624054");
+            props.Add("font-emheight.Tunga", "0.602352941176471");
+            props.Add("font-emheight.Utsaah", "0.893542757417103");
+            props.Add("font-emheight.Vani", "0.593795302986373");
+            props.Add("font-emheight.Verdana", "0.822820409803134");
+            props.Add("font-emheight.Vijaya", "0.993210475266731");
+            props.Add("font-emheight.Vrinda", "0.732737030411449");
+            props.Add("font-emheight.Wingdings", "0.901011878574571");
+            props.Add("font-emheight.Meiryo", "0.666666666666667");
+
+            props.Add("font-emheight.Academy\u0020Engraved\u0020LET", "0.870748299319728");
+            props.Add("font-emheight.Alma\u0020Iso", "0.997384481255449");
+            props.Add("font-emheight.Alma\u0020Large", "1.57250859106529");
+            props.Add("font-emheight.Alma\u0020Symbol", "0.997384481255449");
+            props.Add("font-emheight.AVGmdBU", "1.00986193293886");
+        }
+    }
+}

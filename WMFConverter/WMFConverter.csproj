@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A5D0BF7-2B6D-4AB4-8EB0-637513D26FA5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WMFConverter</RootNamespace>
+    <AssemblyName>WMFConverter</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gdi\BrushDIBColorsEnum.cs" />
+    <Compile Include="Gdi\FontCharsetEnum.cs" />
+    <Compile Include="Gdi\FontClipPrecisEnum.cs" />
+    <Compile Include="Gdi\FontFFEnum.cs" />
+    <Compile Include="Gdi\FontPitchEnum.cs" />
+    <Compile Include="Gdi\FontQualityEnum.cs" />
+    <Compile Include="Gdi\FontOutPrecisEnum.cs" />
+    <Compile Include="Gdi\IGdi.cs" />
+    <Compile Include="Gdi\IGdiBrush.cs" />
+    <Compile Include="Gdi\BrushHSEnum.cs" />
+    <Compile Include="Gdi\BrushEnum.cs" />
+    <Compile Include="Gdi\GdiEnum.cs" />
+    <Compile Include="Gdi\IGdiFont.cs" />
+    <Compile Include="Gdi\FontFWEnum.cs" />
+    <Compile Include="Gdi\IGdiObject.cs" />
+    <Compile Include="Gdi\IGdiPalette.cs" />
+    <Compile Include="Gdi\IGdiPatternBrush.cs" />
+    <Compile Include="Gdi\IGdiPen.cs" />
+    <Compile Include="Gdi\PenEnum.cs" />
+    <Compile Include="Gdi\IGdiRegion.cs" />
+    <Compile Include="Gdi\RegionEnum.cs" />
+    <Compile Include="Gdi\GdiUtils.cs" />
+    <Compile Include="Gdi\Point.cs" />
+    <Compile Include="Gdi\Size.cs" />
+    <Compile Include="IO\DataInput.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Svg\Properties.cs" />
+    <Compile Include="Svg\SvgBrush.cs" />
+    <Compile Include="Svg\SvgFont.cs" />
+    <Compile Include="Svg\SvgObject.cs" />
+    <Compile Include="Svg\SvgDc.cs" />
+    <Compile Include="Svg\SvgGdi.cs" />
+    <Compile Include="Svg\SvgPalette.cs" />
+    <Compile Include="Svg\SvgPatternBrush.cs" />
+    <Compile Include="Svg\SvgPen.cs" />
+    <Compile Include="Svg\SvgRectRegion.cs" />
+    <Compile Include="Svg\SvgRegion.cs" />
+    <Compile Include="Util\Base64.cs" />
+    <Compile Include="Util\ImageUtil.cs" />
+    <Compile Include="Wmf\WmfBrush.cs" />
+    <Compile Include="Wmf\WmfConstants.cs" />
+    <Compile Include="Wmf\WmfFont.cs" />
+    <Compile Include="Wmf\WmfGdi.cs" />
+    <Compile Include="Wmf\WmfObject.cs" />
+    <Compile Include="Wmf\WmfPalette.cs" />
+    <Compile Include="Wmf\WmfParser.cs" />
+    <Compile Include="Wmf\WmfParseException.cs" />
+    <Compile Include="Wmf\WmfPatternBrush.cs" />
+    <Compile Include="Wmf\WmfPen.cs" />
+    <Compile Include="Wmf\WmfRectRegion.cs" />
+    <Compile Include="Wmf\WmfRegion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
