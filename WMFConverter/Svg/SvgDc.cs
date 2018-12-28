@@ -947,7 +947,8 @@ namespace WMFConverter.Svg
         /// <returns></returns>
         public object Clone()
         {
-            return this.Clone();
+            SvgDc obj = new SvgDc(_gdi);
+            return obj;
         }
 
         /// <summary>
